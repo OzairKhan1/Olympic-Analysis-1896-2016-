@@ -1,5 +1,5 @@
-Streamlit version == 1.37.0
-Pandas version  == 2.2.2
-Plotly Express version  == 5.23.0
-Seaborn version  == 0.13.2
-Matplotlib version  == 3.9.0
+Streamlit  == 1.37.0
+Pandas == 2.2.2
+Plotly == 5.23.0
+Seaborn == 0.13.2
+Matplotlib == 3.9.0
