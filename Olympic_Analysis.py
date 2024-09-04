@@ -7,7 +7,7 @@ import plotly.figure_factory as ff
 import PreprocessingFile, helper
 
 df = pd.read_csv(r"F:\Pandas Project 2024\Pandas DataSets\athlete_events.csv")
-reg = pd.read_csv(r"F:\Pandas Project 2024\Pandas DataSets\noc_regions.csv")
+reg = pd.read_csv(r"noc_regions.csv")
 
 cleandf = PreprocessingFile.dataCleaner(df,reg)
 medalTally = helper.Medal_tally(cleandf)
